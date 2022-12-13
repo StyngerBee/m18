@@ -21,5 +21,5 @@ const RSchema = new Schema(
         },
     }
 )
-
-module.exports = RSchema;
+const Reaction = model('Reaction', RSchema);
+module.exports = Reaction;
